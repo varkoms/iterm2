@@ -1,0 +1,17 @@
+# General aliases
+alias zshconfig="code ~/.zshrc"
+alias ls="exa --header --long --icons --group-directories-first -a"
+alias brewupdate="brew update && brew upgrade"
+alias ip="ipconfig getifaddr en0"
+alias remove="rm -ri"
+
+# Dev Aliases
+alias python="python3"
+alias pip="pip3"
+
+# Git Aliases
+alias gs="git status"
+alias ga="git add"
+alias gcm="git commit"
+alias gpull="git pull"
+alias gpush="git push"
